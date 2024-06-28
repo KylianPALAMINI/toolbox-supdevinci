@@ -18,37 +18,37 @@ Ce programme peut être utilisé dans de nombreuses situations, notamment:
 
 ## Fonctionnalités Proposées
 
-1. **Scan de Ports:**
+1. Scan de Ports:
    - Effectue un scan des ports pour identifier les ports ouverts sur une cible spécifique.
    - Utilise Nmap pour fournir des détails sur les services en cours d'exécution et leur état.
    - Utile pour découvrir les points d'entrée potentiels pour les attaquants.
 
-2. **Scan de Vulnérabilités:**
+2. Scan de Vulnérabilités:
    - Utilise l'API Shodan pour rechercher les vulnérabilités connues sur une cible.
    - Effectue également des scans de ports avec Scapy pour une analyse plus détaillée.
    - Génère un rapport complet des vulnérabilités trouvées, y compris les descriptions et les scores CVSS.
 
-3. **Bruteforce FTP:**
+3. Bruteforce FTP:
    - Tente de trouver le mot de passe FTP d'une cible en utilisant une liste de mots de passe.
    - Utilise une approche multithread pour accélérer le processus de bruteforce.
    - Idéal pour tester la robustesse des mots de passe FTP.
 
-4. **Bruteforce SSH:**
+4. Bruteforce SSH:
    - Tente de trouver le mot de passe SSH d'une cible en utilisant une liste de mots de passe.
    - Utilise une approche multithread pour accélérer le processus de bruteforce.
    - Utile pour évaluer la sécurité des accès SSH.
 
-5. **Extracteur de Données:**
+5. Extracteur de Données:
    - Permet de télécharger des fichiers depuis une machine distante via SSH.
    - Offre des fonctionnalités de scan de réseau pour identifier les hôtes actifs.
    - Pratique pour l'analyse de fichiers sur des systèmes distants.
 
-6. **Scan CVE:**
+6. Scan CVE:
    - Recherche les vulnérabilités CVE associées aux services en cours d'exécution sur une cible.
    - Utilise l'API Vulners pour obtenir des informations détaillées sur les CVE.
    - Génère des rapports incluant des descriptions de vulnérabilités et des recommandations de mitigation.
 
-7. **Test de Débit/Connexion:**
+7. Test de Débit/Connexion:
    - Effectue des tests de vitesse de connexion pour évaluer les débits de téléchargement et d'upload.
    - Utilise des pings et des tests de vitesse pour fournir une évaluation complète de la qualité de la connexion.
    - Idéal pour diagnostiquer les problèmes de réseau et de performance.
